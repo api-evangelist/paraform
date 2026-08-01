@@ -1,8 +1,16 @@
 aid: paraform
 name: Paraform
-description: Paraform is a company surfaced as a portfolio company of felicis, scale-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the
-  enrichment pipeline.
+description: >-
+  Paraform is an agentic hiring marketplace where expert recruiters and custom AI
+  agents work together to fill companies' most important roles. Companies post open
+  roles and work with multiple vetted recruiters from a network of 10,000+ professionals
+  in one place, while Paraform's AI toolkit handles sourcing, candidate matching, CRM,
+  notetaking, and scheduling. The platform charges a listing (subscription) fee to
+  publish roles and a success fee when a hire is made. Paraform does not publish a
+  public developer API; instead it integrates into customers' existing ATS and
+  productivity tools (Ashby, Greenhouse, Slack, Gmail, Calendly, Google Calendar) by
+  consuming those partners' APIs and webhooks to keep candidate, role, and interview
+  status in sync bidirectionally.
 url: https://raw.githubusercontent.com/api-evangelist/paraform/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +19,30 @@ x-backed-by:
 - scale-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
+image: https://cdn.sanity.io/images/e5ozko3p/production/e4f5df30343c3ff0af78b7c5cef694da86120b9b-2400x1260.jpg?auto=format
 tags:
 - Company
+- Recruiting
+- Hiring
+- Talent
+- Marketplace
+- Human Resources
+- AI Agents
+- ATS Integration
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,24 @@ maintainers:
 common:
 - type: Website
   url: https://paraform.com
+- type: Blog
+  url: https://www.paraform.com/blog
+- type: About
+  url: https://www.paraform.com/about
+- type: HelpCenter
+  url: https://api.paraform.com/help
+- type: SignUp
+  url: https://www.paraform.com/signup
+- type: Login
+  url: https://www.paraform.com/login
+- type: TermsOfService
+  url: https://www.paraform.com/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.paraform.com/privacy-policy
+- type: DomainSecurity
+  url: security/paraform-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
