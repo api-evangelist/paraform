@@ -30,7 +30,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 image: https://cdn.sanity.io/images/e5ozko3p/production/e4f5df30343c3ff0af78b7c5cef694da86120b9b-2400x1260.jpg?auto=format
